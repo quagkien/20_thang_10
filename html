@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chúc mừng ngày 20/10</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      min-height: 100vh;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      font-family: Arial, sans-serif;
+      color: #7a2855;
+      background: linear-gradient(135deg, #ffe2ed, #fff5f8, #ffd6e7);
+    }
+
+    .card {
+      width: min(90%, 680px);
+      padding: 48px 32px;
+      text-align: center;
+      background: rgba(255, 255, 255, 0.82);
+      border: 2px solid #fff;
+      border-radius: 28px;
+      box-shadow: 0 16px 45px rgba(178, 61, 117, 0.18);
+      animation: appear 1s ease-out;
+    }
+
+    .flower {
+      font-size: 58px;
+      animation: sway 2.5s ease-in-out infinite;
+    }
+
+    h1 {
+      margin: 18px 0;
+      color: #d63384;
+      font-size: clamp(2rem, 7vw, 3.4rem);
+    }
+
+    .message {
+      margin: 0 auto;
+      max-width: 540px;
+      font-size: 1.15rem;
+      line-height: 1.8;
+    }
+
+    .wish {
+      margin-top: 24px;
+      color: #bd3477;
+      font-size: 1.1rem;
+      font-weight: bold;
+      line-height: 1.7;
+    }
+
+    .hearts {
+      margin-top: 24px;
+      font-size: 26px;
+      letter-spacing: 8px;
+    }
+
+    @keyframes appear {
+      from {
+        opacity: 0;
+        transform: translateY(20px) scale(0.97);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+      }
+    }
+
+    @keyframes sway {
+      0%, 100% {
+        transform: rotate(-8deg);
+      }
+      50% {
+        transform: rotate(8deg);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="card">
+    <div class="flower">🌷</div>
+
+    <h1>Chúc mừng ngày 20/10!</h1>
+
+    <p class="message">
+      Gửi đến tất cả những người phụ nữ tuyệt vời:
+      chúc các bạn luôn xinh đẹp, vui vẻ, tự tin và hạnh phúc.
+      Mong rằng mỗi ngày của các bạn đều ngập tràn yêu thương,
+      tiếng cười và những điều thật dịu dàng.
+    </p>
+
+    <p class="wish">
+      Chúc tất cả các bạn nữ luôn tỏa sáng theo cách riêng của mình! 💖
+    </p>
+
+    <div class="hearts">💐 💕 🌸</div>
+  </main>
+</body>
+</html>
